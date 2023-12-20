@@ -1,0 +1,3 @@
+# OBIS ASCII reader for Weidmann GZ1 gas meter sensor
+
+More information coming soon...
