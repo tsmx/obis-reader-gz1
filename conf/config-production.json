@@ -8,5 +8,9 @@
         "options": "?retryWrites=true&w=majority",
         "user": "ENCRYPTED|82e29dc32ca158eb9cc4ad5a1aa0e55c|3852bad0cf2cfd2a03894e363dfd867e",
         "password": "ENCRYPTED|c984c926e962597cfd626c580c9cb94b|1d72c4ec67f2193b5097898c9acf48df"
+    },
+    "obis": {
+        "deviceId": "GZ1",
+        "queryInterval": "0 */5 * * * *"
     }
 }

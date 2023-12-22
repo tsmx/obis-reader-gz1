@@ -3,7 +3,7 @@ import config from '../conf/config.js';
 
 var obisGasValues = mongoose.Schema({
     date: { type: Date, default: Date.now, index: true },
-    deviceid: { type: String, default: 'GZ1', index: true },
+    deviceId: { type: String, default: 'GZ1', index: true },
     balance: Number,
     balanceUnit: { type: String, default: 'm3' },
     consumption: Number,
