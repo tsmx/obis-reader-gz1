@@ -1,0 +1,12 @@
+{
+    "name": "PROD",
+    "database": {
+        "protocol": "mongodb+srv",
+        "server": "ENCRYPTED|3b03d15c58f8b48007b1da08a1c13b13|d3c3a83f89b8cc2f9ade5a0edb2b46fe081f3a6a6e3f4bb05f237f99c366a122025c07fe77d3eab3301e7c5a29bf315d",
+        "database": "ENCRYPTED|2af633847b229d14a58c14c00757719e|b25ea840430965189d59786f1ef8845a",
+        "collection": "obisgasvalues",
+        "options": "?retryWrites=true&w=majority",
+        "user": "ENCRYPTED|82e29dc32ca158eb9cc4ad5a1aa0e55c|3852bad0cf2cfd2a03894e363dfd867e",
+        "password": "ENCRYPTED|c984c926e962597cfd626c580c9cb94b|1d72c4ec67f2193b5097898c9acf48df"
+    }
+}
