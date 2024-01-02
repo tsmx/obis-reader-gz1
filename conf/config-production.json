@@ -11,6 +11,8 @@
     },
     "obis": {
         "deviceId": "GZ1",
+        "devicePath": "/dev/ttyUSB1",
+        "baudRate": 9600,
         "queryInterval": "0 */5 * * * *"
     }
 }

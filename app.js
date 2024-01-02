@@ -10,11 +10,11 @@ const regExBalance = /7-0:3\.0\.0\((\d*\.\d*)\*m3\)/g;
 const regExConsumption = /7-0:1\.7\.0\((\d*\.\d*)\*m3\/h\)/g;
 
 const port = new SerialPort({
-    path: '/dev/ttyUSB1',
-    baudRate: 9600,
+    path: config.obis.devicePath,
+    baudRate: config.obis.baudRate,
 });
 
-logger.info('SerialPort for ttyUSB1 created.');
+logger.info(`SerialPort for ${config.obis.devicePath} created.`);
 
 const parser = port.pipe(new DelimiterParser({ delimiter: '!' }));
 
