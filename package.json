@@ -4,7 +4,9 @@
   "description": "OBIS ASCII reader for Weidmann GZ1 gas meter sensor",
   "type": "module",
   "exports": "./app.js",
-  "scripts": {},
+  "scripts": {
+    "test": "true"
+  },
   "author": "tsmx <dev@tsmx.net>",
   "license": "MIT",
   "repository": {
@@ -12,7 +14,7 @@
     "url": "https://github.com/tsmx/obis-reader-gz1.git"
   },
   "devDependencies": {
-    "eslint": "^8.56.0"
+    "eslint": "^10.0.1"
   },
   "dependencies": {
     "@serialport/parser-delimiter": "^12.0.0",
